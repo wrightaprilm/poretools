@@ -3,6 +3,8 @@ from collections import Counter
 import sys
 import pandas as pd
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 
 import logging
