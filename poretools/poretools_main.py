@@ -4,6 +4,9 @@ import os.path
 import sys
 import argparse
 
+import matplotlib
+matplotlib.use('Agg')
+
 #logger
 import logging
 logger = logging.getLogger('poretools')
